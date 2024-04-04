@@ -52,7 +52,7 @@ extra_javascript:
   
 
 nav:
-  - Introduction: 'introduction.md'
+  - Introduction: 'index.md'
   - Common Workflow Language: 'cwl.md'
   - Usage Scenarios: 'usage-scenarios.md'
   - Best Practices:
