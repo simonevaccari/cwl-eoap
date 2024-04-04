@@ -342,27 +342,27 @@ The Application Package SHALL be a valid CWL document with a "Workflow" class an
 
 The Application Package CWL CommandLineTool classes SHALL contain the following elements:
  
-— Identifier ("id")
-— Command line name ("baseCommand")
-— Input parameters ("inputs")
-— Environment requirements ("requirements")
-— Docker information ("DockerRequirement")
+* Identifier ("id")
+* Command line name ("baseCommand")
+* Input parameters ("inputs")
+* Environment requirements ("requirements")
+* Docker information ("DockerRequirement")
 
 **Requirement 9**	req/app-pck/wf
 
 The Application Package CWL Workflow class SHALL contain the following elements:
 
- — Identifier ("id")
- — Title ("label")
- — Abstract ("doc")
+* Identifier ("id")
+* Title ("label")
+* Abstract ("doc")
 
 **Requirement 10** req/app-pck/wf-inputs
 
 The Application Package CWL Workflow class "inputs" fields SHALL contain the following elements:
 
- — Identifier ("id")
- — Title ("label")
- — Abstract ("doc")
+* Identifier ("id")
+* Title ("label")
+* Abstract ("doc")
 
 **Requirement 11** req/app-pck/metadata
 
