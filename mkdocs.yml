@@ -56,5 +56,5 @@ nav:
   - Common Workflow Language: 'cwl.md'
   - Usage Scenarios: 'usage-scenarios.md'
   - Best Practices:
-    - Application Best Practices: 'best-practices/application.md'
-    - Package Best Practices: 'best-practices/package.md'
+    - Application Best Practices: 'best-practice/application.md'
+    - Package Best Practices: 'best-practice/package.md'

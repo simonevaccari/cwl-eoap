@@ -43,3 +43,17 @@ ENTRYPOINT []
 ### Hands-on
 
 Open the notebook **02 Container**
+
+## Requirement classes
+
+**Requirement 1** req/app/cmd-line
+
+_The Application SHALL be a non-interactive executable as a command-line application._
+
+**Requirement 2** req/app/container
+
+_The environment, libraries, binaries, executable and configuration files necessary to execute the Application SHALL be bundled in a container image._
+
+**Requirement 3** req/app/registry
+
+_The Application container image SHALL be accessible in a container registry._
