@@ -53,3 +53,8 @@ extra_javascript:
 
 nav:
   - Introduction: 'introduction.md'
+  - Common Workflow Language: 'cwl.md'
+  - Usage Scenarios: 'usage-scenarios.md'
+  - Best Practices:
+    - Application Best Practices: 'best-practices/application.md'
+    - Package Best Practices: 'best-practices/package.md'

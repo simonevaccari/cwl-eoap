@@ -1,5 +1,5 @@
 {
-	"name": "application-hub-config",
+	"name": "cwl-eoap",
 
 	"build": {
 		"context": "..",
