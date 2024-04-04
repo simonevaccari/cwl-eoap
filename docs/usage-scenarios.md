@@ -10,7 +10,7 @@ It covers five different usage scenarios from application testing, validation, a
 * Platform Z to accept the deployment of a new process
 * Platform Z to execute a process with specific parameters
 
-The scenarios cover the three “build to run” operations: Build, Deploy and Run.
+The scenarios cover the three "build to run" operations: Build, Deploy and Run.
 
 ## Build
 
