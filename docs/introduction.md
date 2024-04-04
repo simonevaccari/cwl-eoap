@@ -1,0 +1,1 @@
+# CWL as a solution for Earth Observation portability
