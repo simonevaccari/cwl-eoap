@@ -328,6 +328,10 @@ If appropriate the Application Package can define resources for the runtime envi
 ...
 ```
 
+## Hands-on
+
+Open the notebook _03 Package_ for a hands-on with a CWL runner
+
 ## Requirement classes
 
 **Requirement 7**	req/app-pck/cwl
