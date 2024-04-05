@@ -341,7 +341,7 @@ The Application Package SHALL be a valid CWL document with a `Workflow` class an
 **Requirement 8**	req/app-pck/clt
 
 The Application Package CWL `CommandLineTool` classes SHALL contain the following elements:
- 
+
 * Identifier ("id")
 * Command line name ("baseCommand")
 * Input parameters ("inputs")
@@ -352,7 +352,7 @@ The Application Package CWL `CommandLineTool` classes SHALL contain the followin
 
 The Application Package CWL `Workflow` class SHALL contain the following elements:
 
-* dentifier ("id")
+* Identifier ("id")
 * Title ("label")
 * Abstract ("doc")
 
