@@ -336,11 +336,11 @@ Open the notebook _03 Package_ for a hands-on with a CWL runner
 
 **Requirement 7**	req/app-pck/cwl
 
-The Application Package SHALL be a valid CWL document with a "Workflow" class and one or more "CommandLineTool" classes.
+The Application Package SHALL be a valid CWL document with a `Workflow` class and one or more `CommandLineTool` classes.
 
 **Requirement 8**	req/app-pck/clt
 
-The Application Package CWL CommandLineTool classes SHALL contain the following elements:
+The Application Package CWL `CommandLineTool` classes SHALL contain the following elements:
  
 * Identifier ("id")
 * Command line name ("baseCommand")
@@ -350,7 +350,7 @@ The Application Package CWL CommandLineTool classes SHALL contain the following 
 
 **Requirement 9**	req/app-pck/wf
 
-The Application Package CWL Workflow class SHALL contain the following elements:
+The Application Package CWL `Workflow` class SHALL contain the following elements:
 
 * dentifier ("id")
 * Title ("label")
@@ -358,7 +358,7 @@ The Application Package CWL Workflow class SHALL contain the following elements:
 
 **Requirement 10** req/app-pck/wf-inputs
 
-The Application Package CWL Workflow class "inputs" fields SHALL contain the following elements:
+The Application Package CWL `Workflow` class "inputs" fields SHALL contain the following elements:
 
 * Identifier ("id")
 * Title ("label")
@@ -366,8 +366,8 @@ The Application Package CWL Workflow class "inputs" fields SHALL contain the fol
 
 **Requirement 11** req/app-pck/metadata
 
-The Application Package CWL Workclass classes SHALL include additional metadata as defined in the Table 1 of the _OGC Best Practice for Earth Observation Application Package_
+The Application Package CWL `Workflow` class classes SHALL include additional metadata as defined in the Table 1 of the _OGC Best Practice for Earth Observation Application Package_
 
 **Recommendation 1** rec/app-pck/fan-out
 
-For applications with the fan-out design pattern, the Application Package CWL Workclass class MUST include the "ScatterFeatureRequirement" class in the "requirements" section and include the "scatterMethod" in the corresponding input of the step.
+For applications with the fan-out design pattern, the Application Package CWL Workclass class MUST include the `ScatterFeatureRequirement` class in the `requirements` section and include the `scatterMethod` in the corresponding input of the step.
