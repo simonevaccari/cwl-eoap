@@ -53,7 +53,13 @@ extra_javascript:
 
 nav:
   - Introduction: 'index.md'
+  - Background: 
+    - Introduction: 'background/background.md'
+    - Previous OGC Testbeds: 'background/previous-ogc-testbeds.md'
+    - OGC EO Applications Pilot: 'background/applications-pilot.md'
+    - EO Application Package Best Practice: 'background/eoap-best-practice.md'
   - Common Workflow Language: 'cwl.md'
+  - Understanding YAML syntax: 'yaml.md'
   - Usage Scenarios: 'usage-scenarios.md'
   - Best Practices:
     - Application Best Practices: 'best-practice/application.md'
