@@ -1,4 +1,4 @@
-Application Package Usage Scenarios
+# Application Package Usage Scenarios
 
 The application package provides a well-defined set of procedures to allow “build to run” operations. 
 
@@ -22,7 +22,9 @@ For Alice, the Application Package is a portable and executable document that:
 * Describes the input parameters of the Application
 * Maps the input parameters to the command line tool(s) arguments
 
-Bob wants to run Alice’s application and scripts the application with different input parameters in his local machine. He uses two tools to script the execution: a container engine (e.g. Docker) and a CWL runner. The container image used is a controlled execution environment and it’s the same used by Alice to build and test the application.
+Bob wants to run Alice’s application and scripts the application with different input parameters in his local machine. He uses two tools to script the execution: a container engine (e.g. Docker, podman) and a CWL runner. 
+
+The container images used are a controlled execution environment and they're the same used by Alice to build and test the application.
 
 For Bob, the Application Package is a portable and executable document that:
 
