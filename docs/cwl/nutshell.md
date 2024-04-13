@@ -10,7 +10,12 @@ The CWL targets data-intensive processing scenarios and makes these portable and
 * Parameter of the process
 * Inputs/outputs
 
-The CWL contains two main specifications. The Command Line Tool Description Specification that specifies the document schema and execution semantics for wrapping and executing command line tools and the Workflow Description Specification that specifies the document schema and execution semantics for composing workflows from components such as command line tools and other workflows. The CWL file is able to reference the application container images and also allow the definitions of the Application parameters, input/output interface and the overall process offering parameters.
+The CWL contains two main specifications:
+
+- The `CommandLineTool` Description Specification that specifies the document schema and execution semantics for wrapping and executing command line tools 
+- The `Workflow` Description Specification that specifies the document schema and execution semantics for composing workflows from components such as command line tools and other workflows. 
+
+The CWL file is able to reference the application container images and also allow the definitions of the Application parameters, input/output interface and the overall process offering parameters.
 
 Each input to a command line tool has a name and a type (e.g., File, string) and developers are encouraged to include documentation and labels for all components. Metadata about the command line tool descriptions can contain well-defined hints or mandatory requirements such as which software container to use or how much compute resources are required (memory, number of CPU cores, disk space, and/or the maximum time or deadline to complete the step or entire workflow.)
 
@@ -24,8 +29,5 @@ A container image is an immutable, static file containing the dependencies for t
 
 In overall, a container image describes a container environment whereas a container is an instance of that environment, ran by a container engine (e.g. Docker Engine). It is possible to run multiple containers from the same image, and all of them will contain the same software and configuration, as specified in the image.
 
-In the scope of this Best Practice, the Application Package uses the Common Workflow Language (CWL) Workflow Description specification as encoding to describe the Application, its parameters, the command-line tools used, their arguments and their invocation within containers.
-
-With the use of CWL Workflow Description Standard as encoding, the Application can also possibly yield several Application Packages that expose parameters and inputs in different flavors and execution patterns.
 
 There are multiple community or commercially supported systems that support the CWL standards for executing workflows and a list of free and open-source implementations of the CWL standards 

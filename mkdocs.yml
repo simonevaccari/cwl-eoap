@@ -57,8 +57,10 @@ nav:
     - Introduction: 'background/background.md'
     - Previous OGC Testbeds: 'background/previous-ogc-testbeds.md'
     - OGC EO Applications Pilot: 'background/applications-pilot.md'
-    - EO Application Package Best Practice: 'background/eoap-best-practice.md'
-  - Common Workflow Language: 'cwl.md'
+    - Best Practice for EO Application Package: 'background/eoap-best-practice.md'
+  - Common Workflow Language: 
+    - CWL in a nutshell: 'cwl/nutshell.md'
+    - CWL in the Best Practice for EO Application Package: 'cwl/cwl-eoap.md'
   - Understanding YAML syntax: 'yaml.md'
   - Usage Scenarios: 'usage-scenarios.md'
   - Best Practices:
