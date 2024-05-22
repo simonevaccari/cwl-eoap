@@ -11,9 +11,9 @@ arguments:
 inputs:
   geotiff:
     type: string
-    # A default value that can be overridden, e.g. --message "Hola mundo"
+    # A default value that can be overridden, e.g. --geotiff "<another url>"
     default: "https://sentinel-cogs.s3.us-west-2.amazonaws.com/sentinel-s2-l2a-cogs/10/T/FK/2021/7/S2B_10TFK_20210713_0_L2A/TCI.tif"
-    # Bind this message value as an argument to "echo".
+    # Bind this message value as an argument to "rio".
     inputBinding:
       position: 1
 outputs: []
