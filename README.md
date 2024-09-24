@@ -19,3 +19,5 @@ The Application Package uses:
 This repository includes the OGC activities that lead to the adoption of the CWL as the open standard for supporting the packaging of Earth Observation applications.
 
 The webpage of the documentation is https://eoap.github.io/cwl-eoap/. 
+
+[View LICENSE](LICENSE.html)
