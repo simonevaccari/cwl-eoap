@@ -20,4 +20,4 @@ This repository includes the OGC activities that lead to the adoption of the CWL
 
 The webpage of the documentation is https://eoap.github.io/cwl-eoap/. 
 
-[View LICENSE](LICENSE.html)
+[View LICENSE](!LICENSE)
