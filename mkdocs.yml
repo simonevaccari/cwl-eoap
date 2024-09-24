@@ -66,3 +66,7 @@ nav:
   - Best Practices:
     - Application Best Practices: 'best-practice/application.md'
     - Package Best Practices: 'best-practice/package.md'
+
+
+copyright: [License: CC BY-SA 4.0]](https://creativecommons.org/licenses/by-sa/4.0/)
+copyright: [![License: CC BY-SA 4.0](https://img.shields.io/badge/License-CC_BY--SA_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by-sa/4.0/)
